@@ -1,6 +1,7 @@
 import'./styles/global.css'
 import styles from './App.module.scss'
 import { MessageList } from './components/MessageList'
+import { LoginBox } from './components/LoginBox'
 export function App() {
   
 
@@ -8,6 +9,7 @@ export function App() {
     <>
       <main className={styles.contentWrapper}>
         <MessageList />
+        <LoginBox />
       </main>
     </>
     
